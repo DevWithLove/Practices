@@ -9,7 +9,7 @@
 import XCTest
 @testable import DevPractices
 
-class DevPracticesTests: XCTestCase {
+class MergeSortTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,16 +21,31 @@ class DevPracticesTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSortInteger() {
+      // Arrange
+      let array = [2, 5, 3, 9, 7]
+      
+      // Act
+      let result = MergeSort.sort(array)
+      
+      // Assert
+      XCTAssertEqual(result.count, 5)
+      XCTAssertEqual(result.first, 2)
+      XCTAssertEqual(result.last, 9)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+  
+    func testPerformance() {
+      var data = [Int]()
+      let sampleSize = 100000
+      
+      for item in 0..<sampleSize {
+        data.append(item)
+      }
+      
+      self.measure {
+        _ = MergeSort.sort(data)
+      }
     }
-    
+  
 }
+

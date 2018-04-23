@@ -12,8 +12,10 @@
 		02F37E9E208D2A380091684D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F37E9C208D2A380091684D /* Main.storyboard */; };
 		02F37EA0208D2A380091684D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F37E9F208D2A380091684D /* Assets.xcassets */; };
 		02F37EA3208D2A380091684D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F37EA1208D2A380091684D /* LaunchScreen.storyboard */; };
-		02F37EAE208D2A380091684D /* DevPracticesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F37EAD208D2A380091684D /* DevPracticesTests.swift */; };
+		02F37EAE208D2A380091684D /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F37EAD208D2A380091684D /* MergeSortTests.swift */; };
 		02F37EB9208D2A380091684D /* DevPracticesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F37EB8208D2A380091684D /* DevPracticesUITests.swift */; };
+		02F37ECC208D86DD0091684D /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F37ECB208D86DD0091684D /* MergeSort.swift */; };
+		02F37ECD208D86DD0091684D /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F37ECB208D86DD0091684D /* MergeSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +44,12 @@
 		02F37EA2208D2A380091684D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02F37EA4208D2A380091684D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02F37EA9208D2A380091684D /* DevPracticesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevPracticesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02F37EAD208D2A380091684D /* DevPracticesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPracticesTests.swift; sourceTree = "<group>"; };
+		02F37EAD208D2A380091684D /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
 		02F37EAF208D2A380091684D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02F37EB4208D2A380091684D /* DevPracticesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevPracticesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F37EB8208D2A380091684D /* DevPracticesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPracticesUITests.swift; sourceTree = "<group>"; };
 		02F37EBA208D2A380091684D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F37ECB208D86DD0091684D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +112,7 @@
 		02F37EAC208D2A380091684D /* DevPracticesTests */ = {
 			isa = PBXGroup;
 			children = (
-				02F37EAD208D2A380091684D /* DevPracticesTests.swift */,
+				02F37EAD208D2A380091684D /* MergeSortTests.swift */,
 				02F37EAF208D2A380091684D /* Info.plist */,
 			);
 			path = DevPracticesTests;
@@ -161,6 +164,7 @@
 		02F37ECA208D2F6A0091684D /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				02F37ECB208D86DD0091684D /* MergeSort.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F37ECC208D86DD0091684D /* MergeSort.swift in Sources */,
 				02F37E9B208D2A380091684D /* ViewController.swift in Sources */,
 				02F37E99208D2A380091684D /* AppDelegate.swift in Sources */,
 			);
@@ -308,7 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F37EAE208D2A380091684D /* DevPracticesTests.swift in Sources */,
+				02F37ECD208D86DD0091684D /* MergeSort.swift in Sources */,
+				02F37EAE208D2A380091684D /* MergeSortTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
