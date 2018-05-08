@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E662B220995DAC00444428 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E662B120995DAC00444428 /* Stack.swift */; };
+		02E662B320995DAC00444428 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E662B120995DAC00444428 /* Stack.swift */; };
+		02E662B520995EC300444428 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E662B420995EC300444428 /* Queue.swift */; };
+		02E662B620995EC300444428 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E662B420995EC300444428 /* Queue.swift */; };
 		02F37E99208D2A380091684D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F37E98208D2A380091684D /* AppDelegate.swift */; };
 		02F37E9B208D2A380091684D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F37E9A208D2A380091684D /* ViewController.swift */; };
 		02F37E9E208D2A380091684D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F37E9C208D2A380091684D /* Main.storyboard */; };
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E662B120995DAC00444428 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		02E662B420995EC300444428 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		02F37E95208D2A380091684D /* DevPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F37E98208D2A380091684D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F37E9A208D2A380091684D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				02F37ECB208D86DD0091684D /* MergeSort.swift */,
+				02E662B120995DAC00444428 /* Stack.swift */,
+				02E662B420995EC300444428 /* Queue.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -303,6 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E662B520995EC300444428 /* Queue.swift in Sources */,
+				02E662B220995DAC00444428 /* Stack.swift in Sources */,
 				02F37ECC208D86DD0091684D /* MergeSort.swift in Sources */,
 				02F37E9B208D2A380091684D /* ViewController.swift in Sources */,
 				02F37E99208D2A380091684D /* AppDelegate.swift in Sources */,
@@ -314,7 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F37ECD208D86DD0091684D /* MergeSort.swift in Sources */,
+				02E662B320995DAC00444428 /* Stack.swift in Sources */,
 				02F37EAE208D2A380091684D /* MergeSortTests.swift in Sources */,
+				02E662B620995EC300444428 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
